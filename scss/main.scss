@@ -37,9 +37,17 @@ h2,
 h3 {
     margin: 0;
     font-weight: 400;
+    line-height: 1;
 
     &.lg-heading{
         font-size: 6rem;
+        margin-bottom: 0;
+    }
+
+    &.lg-lastname{
+        font-size: 6rem;
+        color: $secondary-color;
+        margin-top: 0;
     }
 
     &.sm-heading{
@@ -83,7 +91,7 @@ main {
 
     &#home{
         overflow: hidden;
-        h1 {
+        h1.lg-heading {
             margin-top: 20vh;
         }
     }
